@@ -3188,7 +3188,7 @@
 		)
 		(uuid "07aabeba-409d-486f-9d70-89ad7bc41d28")
 	)
-	(label "G2RTN"
+	(label "G4RTN"
 		(at 104.14 35.56 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3199,7 +3199,7 @@
 		)
 		(uuid "0f8633b0-12f8-4847-9e6c-430c098e5c1d")
 	)
-	(label "G1RTN"
+	(label "G3RTN"
 		(at 246.38 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3210,7 +3210,7 @@
 		)
 		(uuid "21d46e5a-d9ef-427e-963c-e7782ea1bb00")
 	)
-	(label "G2RTN"
+	(label "G3RTN"
 		(at 104.14 62.23 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3320,7 +3320,7 @@
 		)
 		(uuid "e77a5e7e-8f6c-4bd0-aab7-50a50796cafc")
 	)
-	(label "G2RTN"
+	(label "G4RTN"
 		(at 246.38 50.8 0)
 		(fields_autoplaced yes)
 		(effects
