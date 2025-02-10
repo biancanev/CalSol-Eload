@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMCS1123B1AQDVGR
+D Board Mount Current Sensors +/-1300V reinforced isolation, 80Arms 250kHz Hall-effect current sensor with AFR, reference and ALERT
+K
+F https://www.ti.com/lit/ds/symlink/tmcs1123.pdf?ts=1708001295166&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMCS1123
+$ENDCMP
+#
+#End Doc Library
