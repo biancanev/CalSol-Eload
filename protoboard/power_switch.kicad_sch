@@ -2303,6 +2303,12 @@
 		(uuid "6857f9d0-329f-456b-9e07-39d3b8877bf0")
 	)
 	(junction
+		(at 34.29 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dfdcc2e-1aa4-44e6-b248-8601e83b0201")
+	)
+	(junction
 		(at 34.29 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2505,6 +2511,16 @@
 			(type default)
 		)
 		(uuid "29b62a10-b9d7-4e75-81d0-e2fad6492d15")
+	)
+	(wire
+		(pts
+			(xy 34.29 43.18) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3184736d-4e6b-4fb5-b28c-2b8c609d679b")
 	)
 	(wire
 		(pts
@@ -2958,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 34.29 41.91)
+			(xy 34.29 45.72) (xy 34.29 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5025,7 +5041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMCS1123B1AQDVGR"
+		(property "Footprint" "libs:TMCS1123B1AQDVGR"
 			(at 146.05 242.24 0)
 			(effects
 				(font
@@ -5446,6 +5462,73 @@
 			(project "protoboard"
 				(path "/9233c06e-90cd-4cc2-bc77-fac00ef686c2/7cfc6854-4f26-43a9-ad66-98f80f8ef6d6"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 34.29 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c53ac223-f0bb-4cb6-ab75-cf1533a25b8b")
+		(property "Reference" "#FLG03"
+			(at 32.385 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 30.48 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a8020ef-acc0-488d-a6d1-38cbedd1f9ea")
+		)
+		(instances
+			(project ""
+				(path "/9233c06e-90cd-4cc2-bc77-fac00ef686c2/7cfc6854-4f26-43a9-ad66-98f80f8ef6d6"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
